@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#04070e"/>
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0d1f3c"/>
+      <stop offset="100%" stop-color="#04070e"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a84c"/>
+      <stop offset="100%" stop-color="#f7e6a8"/>
+    </linearGradient>
+  </defs>
+  <!-- Crescent moon -->
+  <circle cx="256" cy="200" r="110" fill="url(#gold)" opacity="0.95"/>
+  <circle cx="310" cy="170" r="88" fill="#04070e"/>
+  <!-- Star -->
+  <polygon points="340,140 348,162 372,162 353,176 360,198 340,184 320,198 327,176 308,162 332,162"
+    fill="url(#gold)" opacity="0.9"/>
+  <!-- Text -->
+  <text x="256" y="370" text-anchor="middle" font-family="serif" font-size="60"
+    fill="url(#gold)" font-weight="bold">যিকির</text>
+  <text x="256" y="420" text-anchor="middle" font-family="sans-serif" font-size="28"
+    fill="#c9a84c" opacity="0.7" letter-spacing="4">PRO</text>
+  <!-- Small stars -->
+  <circle cx="80" cy="80" r="3" fill="#c9a84c" opacity="0.6"/>
+  <circle cx="430" cy="60" r="2" fill="#c9a84c" opacity="0.5"/>
+  <circle cx="60" cy="300" r="2" fill="#c9a84c" opacity="0.4"/>
+  <circle cx="460" cy="350" r="3" fill="#c9a84c" opacity="0.5"/>
+  <circle cx="120" cy="430" r="2" fill="#c9a84c" opacity="0.3"/>
+</svg>

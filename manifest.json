@@ -1,0 +1,38 @@
+{
+  "name": "যিকির প্রো - Islamic Dhikr App",
+  "short_name": "যিকির প্রো",
+  "description": "ইসলামিক যিকির, দোয়া, নামাযের সময়, কিবলা এবং AI সহকারী",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#04070e",
+  "theme_color": "#04070e",
+  "orientation": "portrait",
+  "lang": "bn",
+  "categories": ["lifestyle", "religion", "utilities"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "যিকির শুরু করুন",
+      "url": "/?tab=home",
+      "description": "সরাসরি যিকির কাউন্টার খুলুন"
+    },
+    {
+      "name": "নামাযের সময়",
+      "url": "/?tab=prayer",
+      "description": "আজকের নামাযের সময়সূচী"
+    }
+  ]
+}
